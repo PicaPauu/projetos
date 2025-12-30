@@ -86,10 +86,9 @@ main h1 {
 }
 
 main h2 {
-    font-family: verdana, arial, Arial, Helvetica, sans-serif;
+    font-family: "Merriweather", serif;
     margin-bottom: 17px;
     margin-left: 9px;
-    font-family: "Merriweather", serif;
     font-style: italic;
 }
 
