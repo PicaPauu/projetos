@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2b0675;
+    border-radius: 10px;
+    border: 5px solid rgb(94, 14, 168);
+    padding: 30px
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #4d0dcc;
+}
+
+
+input[type="email"], input[type="password"] {
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: #4d0dcc;
+}
+
+.senha, .email {
+    text-align: center;
+    color: #4d0dcc;
+    padding: 3px;
+}
+
+input[type="submit"] {
+    font-size: 17px;
+    border-radius: 6px;
+    background-color: #4d0dcc;
+    padding: 10px;
+    color: white;
+}
+
+.botoes {
+    text-align: center;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 768) {
+    
+}
