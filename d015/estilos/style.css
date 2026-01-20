@@ -66,29 +66,34 @@ input[type="submit"] {
 @media screen and (max-width: 600px) {
     div {
         padding: 15px;
+        height: 90vh;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 599px) and (max-width: 767px) {
     div {
         padding: 15px;
+        height: 92vh;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     div {
         padding: 25px;
+        height: 94vh;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     div {
         padding: 35px;
+        height: 96vh;
     }
 }
 
 @media screen and (min-width: 1200px) {
     div {
-        padding: 50px
+        padding: 50px;
+        height: 98vh
     }
 }
